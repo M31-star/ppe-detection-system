@@ -112,7 +112,7 @@ if not os.path.exists(MODEL_PATH):
     st.error("❌ Model not found! Check path.")
     st.stop()
 
-model = YOLO(MODEL_PATH)
+MODEL_PATH = "yolov8n.pt"
 
 # ---------------- SIDEBAR ----------------
 st.sidebar.title("⚙️ Control Panel")
